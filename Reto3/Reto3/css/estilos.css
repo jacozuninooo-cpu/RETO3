@@ -1,0 +1,216 @@
+:root {
+    --color-primario: #8bc34a;
+    --color-secundario: #333;
+    --color-fondo: #f4f5f7;
+    --fuente-principal: 'Roboto', sans-serif;
+    --color-blanco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    color: var(--color-secundario);
+    background-color: var(--color-blanco);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.encabezado {
+    background-color: var(--color-primario);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+.caja-flex {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seccion-hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.seccion-hero h2 {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.productos-destacados {
+    background-color: var(--color-fondo);
+    background-image: url('../img/curve.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    padding: 60px 20px;
+}
+
+.tarjeta-producto {
+    background-color: var(--color-blanco);
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tarjeta-producto img {
+    margin-bottom: 20px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.texto-tarjeta {
+    text-align: center;
+    width: 100%;
+}
+
+.texto-tarjeta h3 {
+    margin-bottom: 10px;
+}
+
+.texto-tarjeta p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.boton-verde {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.beneficios {
+    padding: 60px 20px;
+}
+
+.item-beneficio {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-beneficio img {
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.item-beneficio p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.menciones-clientes {
+    background-color: var(--color-fondo);
+    padding: 60px 20px;
+}
+
+.titulo-centrado {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+.tarjeta-mencion {
+    background-color: var(--color-blanco);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 260px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tarjeta-mencion img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.info-mencion {
+    padding: 20px;
+}
+
+.info-mencion p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.pie-pagina {
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos-destacados {
+    background-color: var(--color-fondo); 
+    
+   
+    background-image: url('../images/curve.png'); 
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: 100% auto;     
+
+    padding: 80px 20px 70px; 
+}
+.tarjeta-mencion {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); 
+}
+.menciones-clientes {
+    background-color: var(--color-blanco); 
+}
+.info-mencion h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #000;
+}
